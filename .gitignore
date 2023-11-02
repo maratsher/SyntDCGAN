@@ -1,6 +1,6 @@
 */
 !data/
-*.png
+./*.png
 *.jpg
 *.jpeg
 *.pth
