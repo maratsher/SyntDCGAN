@@ -57,3 +57,39 @@ options:
   --mps                 enables macOS GPU training
 
 ```
+
+
+## Example
+
+Generate a synthetic dataset of images of steel sheets
+
+### Config
+
+| param   | value |
+|---------|--------------|
+| modelSize   | medium          |
+| batchSize  | 128          |
+| nc     | 1          |
+| lr  | 0.003          |
+| nz     | 100          |
+| ngf  | 64         |
+| ndf  | 64          |
+
+### Training
+
+**Losses**
+
+![](data/loss.png)
+
+**Training**
+
+![](data/train.png)
+
+### Result
+
+**Real**
+![](data/real.png)
+
+
+**Fake**
+![](data/fake.png)
